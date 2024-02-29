@@ -1,0 +1,1 @@
+This is the landing page for learning platform's course subscriptions which allows learners to pay a monthly subscription fee that gives them access to take as many courses as covered by the subscription.
