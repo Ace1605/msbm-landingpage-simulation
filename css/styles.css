@@ -19,6 +19,16 @@ body {
   padding-top: 5rem;
 }
 
+@media (max-width: 760px) {
+  .testimonials,
+  .features,
+  .price,
+  .faq,
+  .benefits {
+    padding-top: 3rem;
+  }
+}
+
 .review-w {
   max-width: 800px;
   margin: 0 auto;

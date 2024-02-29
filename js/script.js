@@ -95,13 +95,13 @@ const renderCards = () => {
 const getStyleByType = (type) => {
   switch (type) {
     case "grey":
-      return "mt-3 w-fit text-white font-semibold px-4 mx-auto py-2 text-center inline-block bg-altgrey rounded-pill";
+      return "mt-3 w-fit text-white font-semibold px-4 mx-auto py-2 text-center bg-altgrey rounded-pill";
     case "green":
-      return "mt-3 w-fit text-white font-semibold px-4 mx-auto py-2 text-center inline-block bg-success rounded-pill";
+      return "mt-3 w-fit text-white font-semibold px-4 mx-auto py-2 text-center bg-success rounded-pill";
     case "peach":
-      return "mt-3 w-fit text-white font-semibold px-4 mx-auto py-2 text-center inline-block bg-peach rounded-pill";
+      return "mt-3 w-fit text-white font-semibold px-4 mx-auto py-2 text-center bg-peach rounded-pill";
     default:
-      return "mt-3 w-fit font-semibold px-4 py-2 text-center mx-auto text-white inline-block bg-primary rounded-pill";
+      return "mt-3 w-fit font-semibold px-4 py-2 text-center mx-auto text-white bg-primary rounded-pill";
   }
 };
 
