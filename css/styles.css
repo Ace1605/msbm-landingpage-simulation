@@ -28,6 +28,10 @@ body {
   cursor: pointer;
 }
 
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+}
+
 .benefit-tag {
   background-color: #03144d;
   color: #fff;
@@ -78,4 +82,8 @@ body {
   left: 0rem;
   width: 100%;
   /* Add any additional styles as needed */
+}
+
+.accordion {
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.1rem rgba(26, 68, 237, 0.25);
 }
