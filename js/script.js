@@ -53,19 +53,19 @@ const cards = [
     image: "/img/earn.jpg",
     title: "Rewards",
     type: "blue",
-    text: "Keep your learning schedule in sync across all your devices, ensuring seamless access to your calendar, events, and tasks wherever you go.",
+    text: "Dive into courses, earn rewards, and elevate your learning experience with us!",
   },
   {
     image: "/img/role.jpg",
     title: "Role selection",
     type: "peach",
-    text: "Keep your learning schedule in sync across all your devices, ensuring seamless access to your calendar, events, and tasks wherever you go.",
+    text: "Learn from industry experts and seasoned professionals who bring real-world experience and insights to your virtual classroom.",
   },
   {
     image: "/img/courselist.jpg",
     title: "Course list",
     type: "green",
-    text: "Keep your learning schedule in sync across all your devices, ensuring seamless access to your calendar, events, and tasks wherever you go.",
+    text: "Choose from a wide array of skill-builder courses that focus on specific competencies, allowing you to target areas for improvement and growth in your skill set.",
   },
 ];
 
