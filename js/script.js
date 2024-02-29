@@ -79,10 +79,10 @@ const renderCards = () => {
     cardElement.classList.add("col-lg-6");
     cardElement.innerHTML = `
           <div class="mt-4">
-            <div class="flex align-items-center p-2">
+            <div class="flex align-items-center p-2" id="feature_img">
               <img class="img-fluid rounded-4 mx-auto my-auto" src="${
                 x.image
-              }" alt="card_image"/>
+              }" alt="feature_image"/>
             </div>
             <p class="${getStyleByType(x.type)}">${x.title}</p>
             <p class="mt-2 fw-medium">${x.text}</p>
@@ -109,5 +109,38 @@ renderCards();
 
 const tooltips = document.querySelectorAll(".tt");
 tooltips.forEach((t) => {
-  new bootstrap.tooltip(t);
+  new bootstrap.Tooltip(t);
 });
+
+// image optimization effect
+const ImgElement = document.getElementById("hero_img");
+let count = 0;
+let maxCount = 100;
+const loaderSim = () => {
+  if (count < maxCount) {
+    count++;
+    const opacity = count / maxCount;
+
+    ImgElement.style.opacity = opacity;
+    ImgElement.style.filter = `blue($(10 - 10 * opacity)px)`;
+  } else if (count === maxCount) {
+    clearInterval(loaderInterval);
+  }
+};
+
+const loaderInterval = setInterval(loaderSim, 40);
+
+const ImgFeat = document.getElementById("cards-container");
+const loaderSimul = () => {
+  if (count < maxCount) {
+    count++;
+    const opacity = count / maxCount;
+
+    ImgFeat.style.opacity = opacity;
+    ImgFeat.style.filter = `blue($(10 - 10 * opacity)px)`;
+  } else if (count === maxCount) {
+    clearInterval(loadInterval);
+  }
+};
+
+const loadInterval = setInterval(loaderSimul, 30);
