@@ -20,6 +20,28 @@ list.forEach(function (item) {
   listContainer.appendChild(listItem);
 });
 
+var benefits = [
+  "Cutting-Edge Curriculum",
+  "Expert Instructors",
+  "Testimonial",
+  "Interactive Learning",
+  "Practical Applications",
+  "Constant Updates",
+  "Lifetime Access",
+  "Certification Programs",
+  "Global Community",
+];
+
+var benefitContainer = document.getElementById("benefits-list");
+
+benefits.forEach(function (item) {
+  var benefitItem = document.createElement("li");
+  benefitItem.textContent = item;
+  benefitItem.classList.add("benefit-tag");
+  benefitItem.classList.add("col-md-3");
+  benefitContainer.appendChild(benefitItem);
+});
+
 const cards = [
   {
     image: "/img/leaderboard.png",

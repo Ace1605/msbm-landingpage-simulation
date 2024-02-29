@@ -14,7 +14,8 @@ body {
 .testimonials,
 .features,
 .price,
-.faq {
+.faq,
+.benefits {
   padding-top: 5rem;
 }
 
@@ -25,6 +26,20 @@ body {
 
 .nav-links {
   cursor: pointer;
+}
+
+.benefit-tag {
+  background-color: #03144d;
+  color: #fff;
+  list-style: none;
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.4rem;
+  text-align: center;
+}
+
+#benefits-list {
+  padding-left: 0 !important;
+  margin-top: 3rem;
 }
 .water {
   -webkit-box-reflect: below -30px linear-gradient(to right, rgba(105, 105, 105, 0.185), rgba(165, 165, 165, 0.151));
