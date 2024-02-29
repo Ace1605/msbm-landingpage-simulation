@@ -23,7 +23,7 @@ list.forEach(function (item) {
 var benefits = [
   "Cutting-Edge Curriculum",
   "Expert Instructors",
-  "Testimonial",
+  "Career Guidance",
   "Interactive Learning",
   "Practical Applications",
   "Constant Updates",
