@@ -1,0 +1,23 @@
+// custom variables
+
+$primary: #1a44ed;
+$secondary: #e5e7ea;
+
+// imported functions & variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-theme-colors: (
+  "altgrey": #9ea5ad,
+  "peach": #e4baae,
+  "altyellow": #fec84b,
+  "offwhite": #f7f7f7,
+  "youtubeRed": #dc0000,
+  "altprimary": #0063d7,
+  "altgold": #f7a347,
+  "main": #03144d,
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+// imported bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";

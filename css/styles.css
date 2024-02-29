@@ -1,0 +1,66 @@
+:root {
+  --primary-color: #03144d;
+  --bs-body-font-family: "Inter", sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    -280deg,
+    rgba(232, 243, 250, 0.966) 40%,
+    #aac4d6e0 100%
+  );
+}
+
+.testimonials,
+.features,
+.price,
+.faq {
+  padding-top: 5rem;
+}
+
+.review-w {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  cursor: pointer;
+}
+.water {
+  -webkit-box-reflect: below -30px linear-gradient(to right, rgba(105, 105, 105, 0.185), rgba(165, 165, 165, 0.151));
+}
+.nav-links a {
+  text-decoration: none;
+  color: #03144d;
+}
+.nav-links:hover {
+  text-decoration: underline;
+}
+
+.w-fit {
+  width: max-content;
+}
+
+.avatar {
+  width: 4rem;
+  height: 4rem;
+}
+
+.nav-bg {
+  background: linear-gradient(-280deg, rgb(232, 243, 250) 70%, #aac4d6b9 100%);
+}
+
+.footer-bg {
+  background: linear-gradient(
+    -280deg,
+    rgba(232, 243, 250, 0.966) 40%,
+    #aac4d6e0 100%
+  );
+}
+
+.ellipse-position {
+  top: -2rem;
+  left: 0rem;
+  width: 100%;
+  /* Add any additional styles as needed */
+}
